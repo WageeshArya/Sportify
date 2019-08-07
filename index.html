@@ -12,15 +12,28 @@
 </head>
 <body>
 
-    <!-- <div class="navbar">
-        <span id="main">Sportify</span>
+    <div class="navbar">
         <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#skiing">Skiing</a></li>
+            <li><a href="#swimming">Swimming</a></li>
+            <li><a href="#biking">Biking</a></li>
         </ul>
-    </div> -->
-
-    <section id="biking">
+    </div>
+    <div class="container">
+    
+        <!-- BIKING -->
+    
+        <section class="sections" id="biking">
+        <span class="comp" id="B1">
+            <a href="http://www.milanosanremo.it/en/" target="_blank"><span class="white">Milan-San Remo</span><span class="red">Italy</span></a>
+        </span>
+        <span class="comp" id="B2">
+            <a href="https://www.sportstoursinternational.co.uk/events/tour-of-flanders/" target="_blank"><span class="white">Tour of Flanders</span><span class="red">Belguim</span></a>
+        </span>
+        <span class="comp" id="B3">
+            <a href="https://www.paris-roubaix.fr/" target="_blank"><span class="white">Paris-Roubaix</span><span class="red">France</span></a>
+        </span>
         <div id="side">
             <h4>Discover true biking.</h4>
             <h1>Mountain Biking</h1>
@@ -29,24 +42,48 @@
         </div>
     </section>
 
-    <section id="swimming">
+    <!-- SWIMMING -->
+    
+    <section class="sections" id="swimming">
+        <span class="comp" id="S1">
+            <a href="http://www.europeanwaterfalls.com/waterfalls/bierge-salto-de/" target="_blank"><span class="white">Salto di Bierge</span><span class="turq">Spain</span></a>
+        </span>
+        <span class="comp" id="S2">
+            <a href="https://www.maltauncovered.com/comino-island/blue-lagoon/" target="_blank"><span class="white">Blue Lagoon</span><span class="turq">Malta</span></a>
+        </span>
+        <span class="comp" id="S3">
+            <a href="https://www.thassos-view.com/places/beaches/giola" target="_blank"><span class="white">Giola Pool</span><span class="turq">Greece</span></a>
+        </span>
         <div id="side">
+            <h4>Welcome to the life of water.</h4>
             <h1>Let's Go Swimming</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ratione itaque maiores molestiae distinctio? Odit sit animi quos dolores obcaecati optio vitae vel, laboriosam amet quibusdam qui error voluptatum eius explicabo tenetur beatae magnam delectus ducimus dolor maiores similique eaque debitis alias!</p>
             <button class="findMore">Find Out More <a href="#"><i class="fas fa-chevron-right"></i></a></button>
         </div>
     </section>
 
-    <section id="skiing">
+    <!-- SKIING -->
+
+    <section class="sections" id="skiing">
+        <span class="comp" id="Sk1">
+            <a href="http://www.europeanwaterfalls.com/waterfalls/bierge-salto-de/" target="_blank"><span class="white">Planica World Cup</span><span class="yellow">Slovenia</span></a>
+        </span>
+        <span class="comp" id="Sk2">
+            <a href="https://www.maltauncovered.com/comino-island/blue-lagoon/" target="_blank"><span class="white">Blue Lagoon</span><span class="yellow">Malta</span></a>
+        </span>
+        <span class="comp" id="Sk3">
+            <a href="https://www.thassos-view.com/places/beaches/giola" target="_blank"><span class="white">Giola Pool</span><span class="yellow">Greece</span></a>
+        </span>
             <div id="side">
+                <h4>Peak.</h4>
                 <h1>Find your Zermatt</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ratione itaque maiores molestiae distinctio? Odit sit animi quos dolores obcaecati optio vitae vel.</p>
                 <button class="findMore">Find Out More <a href="#"><i class="fas fa-chevron-right"></i></a></button>
             </div>
         </section>
 
-        <footer>
-            <h1 id="contact">Contact Us</h1>
+        <section class="sections" id=contact>
+            <h1>Contact Us</h1>
             <form>
                 <input type="text" placeholder="Name">
                 <input type="email" placeholder="Email-ID">
@@ -57,6 +94,9 @@
             <a id="gitHub" href="https://github.com/WageeshArya" <i class="fab fa-github"></i></a>
 
             <div id="copyright">Copyright © 2019 Wageesh Arya. All rights reserved.</div>
-        </footer>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
